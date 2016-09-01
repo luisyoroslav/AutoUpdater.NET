@@ -121,7 +121,7 @@
     <value>Una nueva versión de {0} está disponible!</value>
   </data>
   <data name="labelDescription.Text" xml:space="preserve">
-    <value>{0} {1} ya está disponible. Tu tienes la versión {2} instalado. ¿Desea descargarlo ahora?</value>
+    <value>{0} {1} ya está disponible. Usted tienes la versión {2} instalada. ¿Desea descargarla ahora?</value>
   </data>
   <data name="labelReleaseNotes.Text" xml:space="preserve">
     <value>Notas de la versión :</value>
