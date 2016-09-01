@@ -121,7 +121,7 @@
     <value>Una nueva versión de {0} está disponible!</value>
   </data>
   <data name="labelDescription.Text" xml:space="preserve">
-    <value>{0} {1} ya está disponible. Usted tienes la versión {2} instalada. ¿Desea descargarla ahora?</value>
+    <value>{0} {1} ya está disponible. Usted tiene la versión {2} instalada. ¿Desea descargarla ahora?</value>
   </data>
   <data name="labelReleaseNotes.Text" xml:space="preserve">
     <value>Notas de la versión :</value>
@@ -130,7 +130,7 @@
     <value>actualizar</value>
   </data>
   <data name="buttonRemindLater.Text" xml:space="preserve">
-    <value>Recuérdame más tarde</value>
+    <value>Recordame más tarde</value>
   </data>
   <data name="buttonSkip.Text" xml:space="preserve">
     <value>Saltar esta versión</value>

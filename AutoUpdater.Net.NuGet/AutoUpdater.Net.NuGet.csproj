@@ -65,26 +65,45 @@
     <Folder Include="src\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AutoUpdater.NET\AutoUpdater.NET.csproj">
-      <Project>{fb9e7e6b-b19f-4f37-a708-2996190cef13}</Project>
-      <Name>AutoUpdater.NET</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="bin\AutoUpdater.NET.resources.dll" />
-    <Content Include="lib\nl\AutoUpdater.NET.resources.dll" />
-    <Content Include="lib\da\AutoUpdater.NET.resources.dll" />
-    <Content Include="lib\de\AutoUpdater.NET.resources.dll" />
-    <Content Include="lib\es\AutoUpdater.NET.resources.dll" />
-    <Content Include="lib\fr\AutoUpdater.NET.resources.dll" />
-    <Content Include="lib\it-IT\AutoUpdater.NET.resources.dll" />
-    <Content Include="lib\pl\AutoUpdater.NET.resources.dll" />
-    <Content Include="lib\ru\AutoUpdater.NET.resources.dll" />
-    <Content Include="lib\sv\AutoUpdater.NET.resources.dll" />
-    <Content Include="lib\tr-TR\AutoUpdater.NET.resources.dll" />
-    <Content Include="lib\zh-Hans\AutoUpdater.NET.resources.dll" />
-    <Content Include="lib\AutoUpdater.NET.dll" />
-    <Content Include="lib\AutoUpdater.NET.xml" />
+    <Content Include="..\AutoUpdater.NET\bin\AutoUpdater.NET.dll">
+      <Link>lib\AutoUpdater.NET.dll</Link>
+    </Content>
+    <Content Include="..\AutoUpdater.NET\bin\AutoUpdater.NET.XML">
+      <Link>lib\AutoUpdater.NET.XML</Link>
+    </Content>
+    <Content Include="..\AutoUpdater.NET\bin\da\AutoUpdater.NET.resources.dll">
+      <Link>lib\da\AutoUpdater.NET.resources.dll</Link>
+    </Content>
+    <Content Include="..\AutoUpdater.NET\bin\de\AutoUpdater.NET.resources.dll">
+      <Link>lib\de\AutoUpdater.NET.resources.dll</Link>
+    </Content>
+    <Content Include="..\AutoUpdater.NET\bin\es\AutoUpdater.NET.resources.dll">
+      <Link>lib\es\AutoUpdater.NET.resources.dll</Link>
+    </Content>
+    <Content Include="..\AutoUpdater.NET\bin\fr\AutoUpdater.NET.resources.dll">
+      <Link>lib\fr\AutoUpdater.NET.resources.dll</Link>
+    </Content>
+    <Content Include="..\AutoUpdater.NET\bin\it-IT\AutoUpdater.NET.resources.dll">
+      <Link>lib\it-IT\AutoUpdater.NET.resources.dll</Link>
+    </Content>
+    <Content Include="..\AutoUpdater.NET\bin\nl\AutoUpdater.NET.resources.dll">
+      <Link>lib\nl\AutoUpdater.NET.resources.dll</Link>
+    </Content>
+    <Content Include="..\AutoUpdater.NET\bin\pl\AutoUpdater.NET.resources.dll">
+      <Link>lib\pl\AutoUpdater.NET.resources.dll</Link>
+    </Content>
+    <Content Include="..\AutoUpdater.NET\bin\ru\AutoUpdater.NET.resources.dll">
+      <Link>lib\ru\AutoUpdater.NET.resources.dll</Link>
+    </Content>
+    <Content Include="..\AutoUpdater.NET\bin\sv\AutoUpdater.NET.resources.dll">
+      <Link>lib\sv\AutoUpdater.NET.resources.dll</Link>
+    </Content>
+    <Content Include="..\AutoUpdater.NET\bin\tr-TR\AutoUpdater.NET.resources.dll">
+      <Link>lib\tr-TR\AutoUpdater.NET.resources.dll</Link>
+    </Content>
+    <Content Include="..\AutoUpdater.NET\bin\zh-Hans\AutoUpdater.NET.resources.dll">
+      <Link>lib\zh-Hans\AutoUpdater.NET.resources.dll</Link>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
