@@ -3,3 +3,11 @@
 ################################################################################
 
 /AutoUpdater.NET/obj/Debug
+/.vs/AutoUpdater.NET/v14
+/AutoUpdater.NET/bin
+/AutoUpdater.NET/obj/Release
+/AutoUpdater.Net.NuGet/bin
+/AutoUpdater.Net.NuGet/obj
+/AutoUpdaterTest/bin
+/AutoUpdaterTest/obj/Debug
+/AutoUpdaterTest/obj/x86/Release
