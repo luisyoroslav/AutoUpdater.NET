@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
+using System.Drawing;
 using System.Globalization;
 using System.Windows.Forms;
 using Microsoft.Win32;
@@ -32,6 +33,12 @@ namespace AutoUpdaterDotNET
 
         private void UpdateFormLoad(object sender, EventArgs e)
         {
+            //fit size if Height > Screen.PrimaryScreen.WorkingArea.Size.Height
+            if (Height > Screen.PrimaryScreen.WorkingArea.Size.Height)
+            {
+                Size = new Size(Width, Screen.PrimaryScreen.WorkingArea.Size.Height);
+            }
+            
             webBrowser.Navigate(AutoUpdater.ChangeLogURL);
         }
 
